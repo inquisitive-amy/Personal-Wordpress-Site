@@ -1,0 +1,45 @@
+//===========================================================================
+   //                 Contact Styles 
+//==========================================================================
+
+.contact{
+  background: $black;
+  clear: both;
+
+  h3{
+    color: $turq;
+    margin-top: 0;
+  }
+}
+
+p.action{
+  color: $turq;
+  margin: 0;
+}
+
+.smLink a{
+  color: $white;
+  transition: color 0.3s ease;
+
+  &:hover{
+    color:$turq;
+  }
+}
+
+.contactParent{
+  margin-top: 25px;
+}
+
+.group{
+  border-bottom: 1px solid white;
+  margin: 0 2% 20px 0;
+  padding-bottom: 10px;
+  float: left;
+  width: 32%;
+  font-size: 16px;
+  line-height: 1.25;
+
+  &:nth-child(3n+3){
+  margin: 0 0 20px 0;
+  }
+}

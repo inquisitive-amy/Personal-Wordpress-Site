@@ -1,0 +1,121 @@
+//=============================================================================
+               //  Sidebar 
+//========================================================================== 
+
+.sidebar {
+  max-width:32%;
+  float:left;
+  margin: 45px 0 50px 3%;
+  border-top: 5px solid black;
+
+  a{
+    color: $darkturq;
+
+   &:hover{
+    color: black;
+   }
+  }
+
+  h3.widget-title{
+    font-size:20px;
+    margin:0;
+    padding-top:0px;
+    }
+}
+
+.twHead {
+  padding: 0 5px;
+
+  h3{
+  margin-top:0;
+  font-size: 25px;
+  }
+}
+
+.twitter{
+  background: rgba($turq, 0.1);
+  padding: 15px 10px;
+  margin-bottom:40px;
+
+  .tweet{
+    font-size: 14px;
+    margin: 0;
+    padding: 15px 5px 5px 5px;
+
+  &:before{
+  	content:url("i/twitter_icon_BLK.svg");
+  	width: 20px;
+  	height: 20px;
+  	display:block;
+  	margin: 0px 5px 5px 0;
+  }
+  } 
+}
+
+
+.sidebar ul {
+  margin:0;
+  padding:0;
+}
+
+.sidebar ul li {
+  list-style: none;
+  padding: 0;
+  display: block;
+}
+
+.widget-container iframe{
+  max-width: 100%;
+} 
+
+.entry-time { 
+  display: none;
+}
+
+.widget-container{ 
+  margin: 0 0 10px 0;
+  padding-bottom: 20px;
+  list-style-type:none;
+  background-color: #eee;
+  padding: 15px 10px;
+
+ul li{
+  line-height: 1.2;
+  border-bottom: 1px solid $turq;
+  padding: 5px 0;
+
+  &:last-child{
+    border-bottom: 0;
+  }
+}
+
+ul li a{
+  font-size:14px;
+  margin: 0;
+  padding: 0;
+  }
+}
+
+select.postform{
+  background: $turq;
+  height: 50px;
+  width: 100%;
+  padding: 10px;
+  margin:10px 0 0 0;
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 1;
+  border: 0;
+  border-radius: 0;
+  height: 34px;
+  -webkit-appearance: none;
+
+  &:focus{
+  	outline: 0;
+  }
+
+  &:hover{
+    background: black;
+    color: white;
+  }
+}

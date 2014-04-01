@@ -1,0 +1,483 @@
+@media (max-width: 1000px) {
+  // #wpadminbar { border-left:10px solid red !important; }
+
+	.profileB{
+	  margin-top: 50px;
+	}
+
+	.siteHeading{
+		width: 50%;
+	}
+
+	img.laptop{
+		margin-top: -250px;
+	}
+
+  img.amp{
+    margin-top: 5px;
+  }
+
+	.aboutText{
+		max-width: 55%;
+	}
+
+  .about{
+    background-size: 43%;
+    background-position: 90% 100%;
+  }
+}
+
+@media (max-width: 960px){
+
+  h2{
+    font-size: 65px;
+    letter-spacing: -1px;
+  }
+
+  .siteHeading h5{
+  	font-size:22px;
+  	width: 75%;
+  }
+
+  .group{
+    font-size: 15px;
+    line-height: 1.25;
+        
+    .icon{
+      width: 30px;
+      height: 30px;
+    }
+  }
+}
+
+@media (max-width: 825px) {
+
+  .group{
+    width: 48%;
+
+    &:nth-child(3n+3){
+      margin: 0 2% 20px 0;
+    }
+
+    &:nth-child(2n+2){
+      margin-right: 0;
+    }
+  }
+}
+
+
+@media (min-width: 769px) {
+
+.header ul.menu{
+    display: inline !important;
+  }
+}
+
+@media (max-width: 768px) {
+  // #wpadminbar { border-left:10px solid green !important; }
+
+  .header ul.menu{
+    display:none;
+    position: absolute;
+    top: 70px;
+    left:0;
+    width: 100%;
+    background: black;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+    li{
+      display: block;
+      width: 100%;
+      border-bottom: 1px solid $turq;
+      padding: 10px;
+    }
+  }
+
+  a.dropDown{
+    display: block;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  img.laptop{
+  	margin-top: -80px;
+  	max-width: 45%;
+  }
+
+  h2{
+  	font-size: 55px;
+  }
+
+  img.amp{
+    display:none;
+  }
+
+.skills{
+  max-width: 100%;
+  float:none;
+
+    h6{
+      float: none;
+      clear: both;
+    }
+
+    .skill{
+      float: left;
+      width: 32%;
+      margin-right: 2%;
+
+      &:last-child{
+        margin-right: 0;
+      }
+    }
+  }
+  
+  .blogcontent{
+    width: 100%;
+  }
+
+  .left{
+    width: 85%;
+  }
+
+  div.flexslider{
+    margin-bottom: 50px;
+  }
+
+  .details .left{
+    width:65%;
+  }
+
+  .details{
+    margin-top: 0;
+  }
+
+  h3.entry-title{
+    font-size: 50px;
+  }
+
+  .singlePostContent{
+
+    p:first-child:first-letter { 
+      float: left; 
+      font-size: 80px; 
+      padding-top: 7px; 
+    }
+}
+
+  .sidebar{
+    max-width: 100%;
+    margin: 0;
+    margin-bottom: 25px;
+  }
+
+  .twitter{
+    width: 66%;
+    float: left;
+    margin-right: 2%;
+  }
+
+  .widget-container{
+    float: left;
+    width: 32%;
+    margin-right: 0%;
+    margin: 0 0 16px 0;
+  }
+}
+
+
+@media (max-width: 600px) {
+ .details .left{
+    width:100%;
+    float: none;
+  }
+
+  .taxes{
+    width: 100%;
+    float:none;
+  }
+
+  a.siteLink{
+    padding-top: 0;
+  }
+
+}
+
+@media (max-width: 680px) {
+  
+  h2{
+    font-size: 50px;
+  }
+
+  .siteHeading h5{
+    font-size:18px;
+    width: 100%;
+    line-height: 1.4;
+   }
+
+   img.amy{
+     display: none;
+   }
+
+   img.amyMq{
+     display: block;
+   }
+
+   .about{
+    background-image: none;
+   }
+
+   .aboutText{
+     max-width: 100%;
+   }
+
+  .copyright{
+    padding: 20px 0 10px 0;
+  }
+
+  .footer ul{
+    width: 100%;
+    padding:10px 0 20px 0;
+    display: block;
+    margin:0;
+  }
+
+  .footer ul.menu li a{
+    margin:0;
+  }
+
+  .footer ul.menu li{
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  // #wpadminbar { border-left:10px solid yellow !important; }
+
+  body{
+    font-size: 16px;
+  }
+
+  .siteHeading{
+    width: 95%;
+    z-index: 1;
+    margin: 0 auto;
+    float: none;
+    text-align: center;
+  }
+
+  .siteHeading h5{
+   	max-width: 100%;
+  }
+
+  .full{
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+
+  h3.page-title, h3.entry-title{
+    font-size: 50px;
+  }
+
+  .laptopHoriz{
+    display:block;
+    margin-top: 25px;
+  }
+
+  img.laptop{
+     display: none;
+   }
+
+   img.amp{
+    display: none;
+   }
+
+  .skills{
+    max-width: 100%;
+    margin-bottom: 0;
+    float: none;
+    margin: 5px auto;
+    border-top: 1px solid black;
+    padding-top: 40px;
+
+    .skill{
+      float: none;
+      width: 100%;
+      margin-right: 0%;
+     }
+  }
+
+  .group{
+    width: 100%;
+  }
+
+  .portfolioPosts{
+    float: none;
+    margin-right: 0;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  ul.customTaxList{
+    padding-left: 0;
+    
+    li{
+      float: none;
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+
+  .twitter{
+    width: 100%;
+  }
+
+  .widget-container{
+    width: 100%;
+  }
+
+  .left{
+    width: 100%;
+  }
+
+  h3{
+    font-size: 25px;
+    line-height: 1.1; 
+    font-weight: 400;
+    letter-spacing: 0;
+  }
+
+  h3 a{
+    font-size: 25px;
+    line-height: 1.1;
+    font-weight: 400;
+    letter-spacing: 0; 
+  }
+
+   h3.entry-title{
+    font-size:40px;
+   }
+
+  h6{
+    font-size: 18px;
+  }
+
+  .skillText p{
+    margin-top: 0;
+
+    &:last-child{
+      margin-bottom: 0;
+    }
+  }
+
+  .skill{
+    margin-top: 20px;
+
+    &:first-child{
+      margin-top: 0;
+    }
+  }
+
+  .icon{
+    width: 30px;
+    height: 30px;
+  }
+  
+  .singlePostContent {
+
+  p:first-child:first-letter { 
+    float: left; 
+    font-size: 45px; 
+    padding-top: 14px; 
+    line-height: 20px;
+   }
+  }
+
+  .article{
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+
+  .about p:last-child{
+    margin-bottom: 0;
+  }
+
+  .group:last-child{
+    margin-bottom: 0;
+  }
+
+  p{
+    line-height: 1.4;
+  }
+
+  .header{
+    position:relative;
+  }
+
+  .header ul.menu{
+    top: 68px;
+  }
+
+  .section{
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 325px) {
+
+  .logo{
+    width: 150px;
+  }
+
+  .innerWrapper{
+    padding: 0 30px;
+  }
+
+  .full{
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+
+  .aboutText p:last-child{
+    margin-bottom: 0;
+  }
+
+  .skills .skillText{
+    margin-bottom: 40px;
+  }
+  .skillText:last-child{
+    margin-bottom: 0;
+  }
+
+  .profileB{
+    margin-top: 35px;
+  }
+
+  .siteHeading{
+    width: 100%;
+  }
+
+  h2{
+    font-size: 40px;
+    letter-spacing: -1px;
+  }
+
+  h5{
+    font-size: 20px;
+  }
+
+  .short {
+    padding: 15px;
+
+    p.description{
+      font-size: 12px;
+      line-height: 1.5;
+    }
+  }
+}

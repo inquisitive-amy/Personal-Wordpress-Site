@@ -1,0 +1,111 @@
+//=============================================================================
+  //                 Default Styling 
+ //============================================================================
+
+ /* Global Classes / Wordpress Specific */
+ .aligncenter    { text-align: center; margin: 0 auto; }
+ .alignleft      { float: left; }
+ .alignright     { float: right; }
+ img.alignleft     { padding-right: 5px;}
+ img.alignright    { padding-left: 5px; }
+ .clear        { width:100%; float:left; clear:both;}
+
+.section{
+  padding-top: 78px;
+}
+
+.innerWrapper {
+  max-width:1040px;
+  margin:0 auto;
+  padding: 0 40px;
+}
+
+.left {
+  float:left;
+  width: 65%;
+}
+
+.full {
+  width:100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+//blockquotes
+blockquote {
+  background: #F7F7F7;
+  margin:0;
+  padding:20px;
+}
+  blockquote p {
+    margin-top: 0;
+}
+
+//tables//
+table td {
+  padding:10px;
+}
+table tr td:first {
+  padding-right: 0;
+}
+
+//def lists//
+dt {
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+dd {
+  padding:10px;
+  margin-left: 10px;
+}
+
+//lists//
+ul li,ol li {
+  padding:7px 0px;
+  line-height: 1.5;
+  display: list-item;
+}
+
+
+ol, ul{
+  padding-left: 25px;
+}
+
+//PRE//
+
+pre {
+  background: #F7F7F7;
+  padding:10px;
+  border-radius: 4px;
+  border:1px solid #ccc;
+}
+
+img.avatar {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+body {
+  color:#333;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: 'Quicksand', sans-serif;
+}
+
+a {
+  color:$turq;
+  text-decoration: none;
+  transition: color .25s ease;
+  line-height: 1.25;
+
+  &:hover{
+  	color:$darkturq;
+  }
+}

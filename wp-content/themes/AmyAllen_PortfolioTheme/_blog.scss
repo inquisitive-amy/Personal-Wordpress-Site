@@ -1,0 +1,48 @@
+.blogcontent{
+	width: 65%;
+	float: left;
+	padding-top: 45px;
+}
+
+ .article{
+	border-bottom: 1px solid black;
+	padding-bottom: 40px;
+	margin-bottom: 40px;
+}
+
+.posted{
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.singlePostContent {
+	ol{
+		margin: 0;
+	}
+
+	p:first-child:first-letter { 
+		float: left; 
+		font-size: 85px; 
+		line-height: 60px; 
+		padding-top: 10px; 
+		padding-right: 4px; 
+		font-weight:400;
+		color: $turq;
+	}
+}
+
+footer{
+	border-bottom: 1px solid black;
+	padding-bottom: 40px;
+}
+
+.entry-utility{
+	border-top: 1px solid black;
+	padding-top: 10px;
+	margin-top: 50px;
+}
+
+.left{
+	height: auto;
+}

@@ -1,0 +1,87 @@
+.wp-pagenavi{
+	float: right;
+	margin: 40px 0 20px 0;
+
+	&:before{
+		content:"Page"
+	}
+
+	.pages{
+		padding: 20px;
+	}
+
+	.current, .larger, .smaller, .previouspostslink, .nextpostslink{
+		padding: 3px;
+		width: 35px;
+		height: 35px;
+		display: inline-block;
+		color: black;
+		text-align: center
+	}
+	
+	.page.larger{
+		padding: 10px;
+	}
+
+	.previouspostslink{
+		padding: 10px;
+	}
+	
+	.nextpostslink{
+		padding: 10px;
+	}
+}
+
+.navigation{
+	margin-top: 10px;
+	width: 100%;
+
+	p{
+		margin-bottom:0;
+		text-transform: uppercase;
+		font-weight: 600;
+	}
+
+	.nav-previous{
+		float: left;
+		width: 40%;
+	}
+
+	.nav-next{
+		float:right;
+		width: 40%;
+	}
+}
+
+.pageNav{
+	float:left;
+}
+
+.pageNav a{
+	padding: 10px 20px;
+	display: inline-block;
+	margin: 0 0 20px 0;
+	background: black;
+	color: white;
+	font-size:14px;
+	transition: background 0.5s ease;
+
+	&:hover{
+		color: white;
+		background: $turq;
+	}
+}
+
+.postNav{
+	border-radius:50%;	
+	width: 40px;
+	height: 40px;
+	background: black;
+	color: white;
+	text-align: center;
+	margin-top: 5px;
+
+	p{
+		padding:6px 0 0 2px;
+	}
+}

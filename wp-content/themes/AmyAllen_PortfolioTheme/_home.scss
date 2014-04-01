@@ -1,0 +1,64 @@
+//===========================================================================
+   //                 Profile Styles 
+//==========================================================================
+.profile{
+  background:$turq;
+  margin: 0;
+}
+
+.laptopHoriz{
+  display: none;
+}
+
+.siteHeading{
+  width: 42%;
+  margin: 0 0 50px 0;
+  float: left;
+}
+
+.profile h3{
+  margin:0;
+}
+
+img.laptop{
+  float: right;
+  margin-top: -320px;
+  max-width: 50%;
+  z-index: -10;
+}
+
+.profileB{
+  margin-top: 10px;
+  clear:both;
+}
+
+img.amp{
+  float: left;
+  margin-top: -50px;
+  max-width: 50%;
+}
+
+.skills{
+  max-width: 48%;
+  float: right;
+
+  h6{
+    float: left;
+    margin: 5px 0 0 0;
+    color: $white;
+    font-weight: 400;
+  }
+
+  .skillText{
+    clear: both;
+    margin-bottom: 25px;
+    line-height: 1.4;
+  }
+}
+
+.icon{
+  width: 35px;
+  height: 35px;
+  float: left;
+  margin: 0  10px 10px -4px;
+}

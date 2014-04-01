@@ -1,0 +1,144 @@
+//=============================================================================
+     //              Portfolio Page 
+//==========================================================================
+
+.mainContent{
+	margin-top: 25px;
+	width: 100%;
+}
+
+.page-title{
+	font-size: 60px;
+	line-height: 1.1;
+	letter-spacing: -2px;
+	font-weight: 200;
+	margin-top:0;
+}
+
+.portfolioPosts{
+  float: left;
+  margin-right: 1.5%;
+  margin-bottom: 1%;
+  width: 48.5%;
+
+	&:nth-child(2n+2){
+		margin-right: 0;
+	}
+	
+		img{
+			width: auto;
+			height: auto;
+			box-shadow: 0px 0px 2px rgba(0,0,0,0.2);
+		}
+}
+
+.portfolioPosts:hover .short{
+	opacity: 1;
+	-webkit-transition: opacity 0.2s ease-in-out;
+	-moz-transition: opacity 0.2s ease-in-out;
+	-o-transition: opacity 0.2s ease-in-out;
+	transition: opacity 0.2s ease-in-out;
+}
+
+.short{
+	background: #000;
+	background: rgba($black, 0.8);
+	position: absolute;
+	top:0;
+	left:0;
+	height: 100%;
+	color: white;
+	padding: 20px;
+	opacity: 0;
+
+	h5{
+		margin: 0 0 5px 0;
+	}
+}
+
+
+//=============================================================================
+     //              Single Portfolio Page 
+//==========================================================================
+
+
+p.short{
+  color: #555;
+  font-size: 16px;
+}
+
+a.siteLink{
+	text-transform: uppercase;
+	font-size: 14px;
+	padding-top: 10px;
+	display: block;
+}
+
+ul.customTaxList{
+	list-style-type: none;
+	margin-left: 0;
+	width: 100%;
+	padding-left:0;
+
+	li{
+		border-bottom: 1px solid $turq;
+		float: left;
+		display:inline-block;
+		width: 32%;
+		margin-right: 2%;
+
+		&:nth-child(3n+3){
+			margin-right:0;
+		}
+	}
+}
+
+.details{
+	margin:35px 0;
+	border-bottom: 1px solid black;
+	padding-bottom: 25px;
+	clear:both;
+}
+
+.taxes{
+	width: 33%;
+	float: right;
+	font-size: 14px;
+	border-top: 1px solid black;
+}
+
+.left{ 
+	h3.projectTitle{
+		margin-top: 5px;
+	}
+}
+
+.credit{
+	font-size:14px;
+	margin:0;
+}
+
+//flexslider
+
+div.flexslider{
+	box-shadow: none;
+	border: 0;
+
+	a:before{
+		font-size: 30px;
+	}
+	
+	figure img{
+		margin-bottom: 10px;
+		box-shadow: none;
+	}
+
+	.flex-control-nav{
+		bottom: 0;
+		text-align:left;
+	}
+}
+
+figure figcaption{
+	font-size: 14px;
+}

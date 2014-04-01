@@ -1,0 +1,52 @@
+// =============================================================================
+                  // Header styles 
+//========================================================================== 
+
+.header{
+  padding: 15px 0 5px 0;
+  background: black;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+}
+
+.logo{
+	width: 200px;
+}
+
+ul.menu{
+	display: inline;
+	float: right;
+	margin-top: 15px;
+
+  li {
+    display:inline;
+    padding:0;
+
+    a {
+      color:white;
+      margin-left: 21px;
+      transition: color 0.3s ease;
+      font-size: 16px;
+      font-weight: 400;
+
+      &:hover {
+        color:$turq;
+      }
+    }
+  }
+}
+
+a.dropDown{
+  display: none;
+  font-size: 25px;
+  color:white;
+  position: absolute;
+  top: 18px;
+  right: 30px;
+
+  &:hover{
+    color: $turq;
+  }
+}
